@@ -1,0 +1,26 @@
+REST API - JSON
+
+HYBRID SERVER
+
+
+
+GET /users - HTML document render       ---> for web
+GET /api/users - List all users JSON    ---> for mobile
+
+GET /users/1 - Get the user with id 1
+GET /users/2 - Get the user with id 2
+
+Dynamic path parameters
+GET /api/users/:id
+if there is colon infront of any word this means it is dynamic and it can be anything
+:id -> Variable / Dynamic
+
+POST /users - Create new user
+
+
+PATCH /users/1 - Edit the user with ID 1
+
+DELETE /users/1 - Delete the user with ID 1
+
+
+used mockaroo.com for fake data testing
